@@ -1,0 +1,19 @@
+# Regenerated outputs and MATLAB caches
+results/*
+!results/.gitkeep
+slprj/
+**/slprj/
+*.slxc
+*.asv
+*.slx.autosave
+*.m~
+*.mexw64
+*.log
+__pycache__/
+.DS_Store
+Thumbs.db
+# Local credentials and machine configuration
+.env
+.env.*
+*.pem
+*.key

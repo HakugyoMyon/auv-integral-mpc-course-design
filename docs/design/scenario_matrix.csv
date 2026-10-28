@@ -1,0 +1,13 @@
+id,path,duration_s,u_ref_m_s,depth_ref_m,initial_N_m,initial_E_m,heading_offset_deg,current_speed_m_s,current_direction_deg,current_vertical_m_s,yaw_moment_amplitude_Nm,yaw_moment_frequency_rad_s,kappa_crossflow,rudder_max_deg,rudder_rate_deg_s,controller_pair,evaluation_start_s,steady_window_s,status
+LINE_NOM,LINE,200,1.5,10,0,10,-10,0,90,0,0,0.05,1,20,20,PID;MPC_v3,30,50,validated_v3
+CIRCLE_NOM,CIRCLE,300,1.5,10,0,10,-10,0,90,0,0,0.05,1,20,20,PID;MPC_v3,30,50,validated_v3
+LINE_CURRENT,LINE,200,1.5,10,0,10,-10,0.2,90,0,0,0.05,1,20,20,PID;MPC_v3,30,50,validated_v3
+CIRCLE_CURRENT,CIRCLE,300,1.5,10,0,10,-10,0.2,90,0,0,0.05,1,20,20,PID;MPC_v3,30,50,validated_v3
+LINE_MOMENT,LINE,200,1.5,10,0,10,-10,0,90,0,0.2,0.05,1,20,20,PID;MPC_v3,30,50,validated_v3
+CIRCLE_MOMENT,CIRCLE,300,1.5,10,0,10,-10,0,90,0,0.2,0.05,1,20,20,PID;MPC_v3,30,50,validated_v3
+LINE_DRAG_LOW,LINE,200,1.5,10,0,10,-10,0,90,0,0,0.05,0.8,20,20,PID;MPC_v3,30,50,validated_v3
+CIRCLE_DRAG_LOW,CIRCLE,300,1.5,10,0,10,-10,0,90,0,0,0.05,0.8,20,20,PID;MPC_v3,30,50,validated_v3
+LINE_DRAG_HIGH,LINE,200,1.5,10,0,10,-10,0,90,0,0,0.05,1.2,20,20,PID;MPC_v3,30,50,validated_v3
+CIRCLE_DRAG_HIGH,CIRCLE,300,1.5,10,0,10,-10,0,90,0,0,0.05,1.2,20,20,PID;MPC_v3,30,50,validated_v3
+LINE_TIGHT,LINE,200,1.5,10,0,10,-10,0,90,0,0,0.05,1,10,5,PID;MPC_v3,30,50,validated_v3
+CIRCLE_TIGHT,CIRCLE,300,1.5,10,0,10,-10,0,90,0,0,0.05,1,10,5,PID;MPC_v3,30,50,validated_v3

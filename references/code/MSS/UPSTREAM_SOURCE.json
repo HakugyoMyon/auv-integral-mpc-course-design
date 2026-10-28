@@ -1,0 +1,13 @@
+{
+  "id": "CODE_MSS",
+  "type": "code_snapshot",
+  "status": "downloaded",
+  "source_url": "https://github.com/cybergalactic/MSS",
+  "resolved_url": "https://codeload.github.com/cybergalactic/MSS/zip/ed2ce7b4d8f44e3a724972499d8b5cd6189afc0e",
+  "commit": "ed2ce7b4d8f44e3a724972499d8b5cd6189afc0e",
+  "archive_sha256": "daf71cdb8f72630c6da4828d01aa1605a9064b8a2581524cf6ae0afa33fc7a89",
+  "archive_bytes": 79099411,
+  "files": 473,
+  "path": "references/code/MSS",
+  "note": "保留上游许可证；只下载，未运行上游脚本或修改MATLAB搜索路径。"
+}

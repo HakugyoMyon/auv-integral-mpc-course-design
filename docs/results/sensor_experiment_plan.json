@@ -1,0 +1,59 @@
+{
+  "status": "fixed_before_runs",
+  "version": "frozen_v3",
+  "cases": [
+    1,
+    2,
+    11
+  ],
+  "caseNames": [
+    "LINE_NOM",
+    "CIRCLE_NOM",
+    "LINE_TIGHT"
+  ],
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "conditions": {
+    "noise": "independent zero-mean Gaussian state measurement noise at 10Hz",
+    "delay": "one-sample 0.1s delay of 12 rigid-body feedback states; initial measurement held at startup",
+    "noise_delay": "noise at acquisition, then same one-sample delay"
+  },
+  "noiseStd12_nativeUnits": [
+    0.01,
+    0.01,
+    0.01,
+    0.00034906585039886593,
+    0.00034906585039886593,
+    0.00034906585039886593,
+    0.05,
+    0.05,
+    0.02,
+    0.0008726646259971648,
+    0.0008726646259971648,
+    0.0017453292519943296
+  ],
+  "actuatorFeedback": "current exact actuator states for both methods; no actuator sensor noise or delay",
+  "pairing": "same acquisition noise array and seed for PID/MPC; noise never injected into physical state",
+  "newRuns": 42,
+  "delayOnlySeeds": [
+    104729
+  ],
+  "noiseAndCombinedSeeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "metrics": "truth cross-track RMSE after30s, final50s RMSE, actual rudder TV, input bounds, completion, finalQPfailures; paired differences and seed mean/std, no significance claim with n=3",
+  "interpretation": "assumed sensitivity levels, not specifications of actual DVL/IMU hardware; no estimator or retuning",
+  "gates": "all runs retained including failures; finite state and original operating domain, amplitude/rate bounds, no finalQPfailure. Do not require MPC to win every run.",
+  "frozenSourceSha256": {
+    "active_mpc_heading_step.m": "5d2415a36effecbd6438631cb11087ae264b8732cb1a657bccddf9f280d7fb8a",
+    "current_control_parameters.m": "5ae4f6f6ff697281d84f1bbf5720f096035e3452e72f4032b21753225b8ae0c7",
+    "pid_control_step.m": "8e572493341e26d65cef996cd5ca03e72dc6b406047e22db8ff77d105a577de0",
+    "remus_reference_rhs.m": "d0bd574e94e843527c163524eb2c91e72a4507f3535d16dfb93a4535707454df",
+    "simulate_active_control.m": "ae2cfc59143414c685d995c88b42cac18073375d11b99f5a336562800bec8556"
+  }
+}

@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite this repository and retain the separate MSS attribution."
+type: software
+title: "Underactuated AUV Path Following with PID and Integral MPC"
+authors:
+  - family-names: "HakugyoMyon"
+version: 1.0.0
+date-released: 2026-10-28
+repository-code: "https://github.com/HakugyoMyon/auv-integral-mpc-course-design"
+license: MIT
+keywords:
+  - AUV
+  - MATLAB
+  - Simulink
+  - model predictive control
+  - path following

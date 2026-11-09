@@ -1,0 +1,121 @@
+{
+  "frame": {
+    "SW": "Y aft, X port, Z up",
+    "body": "X forward, Y starboard, Z down",
+    "origin_SW_mm": [
+      0,
+      350,
+      0
+    ],
+    "origin_is_CG": false,
+    "R_SW_to_body": [
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        -1
+      ]
+    ]
+  },
+  "INS": {
+    "SW_mm": [
+      0,
+      550,
+      -25
+    ],
+    "body_FRD_m": [
+      -0.2,
+      0.0,
+      0.025
+    ],
+    "reference": "envelope center pending factory sensing datum",
+    "mount_alignment_candidate": "forward SW -Y, down SW -Z",
+    "provides": [
+      "gyro",
+      "specific force"
+    ]
+  },
+  "GNSS": {
+    "SW_mm": [
+      0,
+      200,
+      148.5
+    ],
+    "body_FRD_m": [
+      0.15,
+      0.0,
+      -0.1485
+    ],
+    "reference": "antenna top-center proxy pending ARP offset",
+    "valid_when": "surface fix available and antenna clear of water"
+  },
+  "pressure": {
+    "SW_mm": [
+      0,
+      270,
+      138
+    ],
+    "body_FRD_m": [
+      0.08,
+      0.0,
+      -0.138
+    ],
+    "reference": "top wet port interface proxy",
+    "valid_when": "wet, use surface pressure reference and water density",
+    "does_not_measure_altitude": true
+  },
+  "DVL": {
+    "SW_mm": [
+      0,
+      200,
+      -151.1
+    ],
+    "body_FRD_m": [
+      0.15,
+      0.0,
+      0.15109999999999998
+    ],
+    "reference": "housing front extremum proxy pending acoustic origin",
+    "acoustic_axis_body": [
+      0,
+      0,
+      1
+    ],
+    "valid_when": "bottom lock for ground velocity and altitude",
+    "beam_tilt_deg": 22.5
+  },
+  "sonar": {
+    "SW_mm": [
+      0,
+      -288,
+      0
+    ],
+    "body_FRD_m": [
+      0.638,
+      0.0,
+      0.0
+    ],
+    "reference": "nominal acoustic face center",
+    "forward_axis_body": [
+      1,
+      0,
+      0
+    ],
+    "navigation_mode": {
+      "fov_horizontal_deg": 90,
+      "fov_vertical_deg": 40,
+      "max_range_m": 15,
+      "update_rate_Hz": 5
+    }
+  },
+  "status": "CAD reference points for MIL initialization, not as-built calibration"
+}

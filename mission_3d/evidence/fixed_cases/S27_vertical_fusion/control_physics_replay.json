@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "control_samples": 8426,
+  "maximum_reference_first_column_error": 0,
+  "maximum_QP_thrust_difference_N": 0,
+  "maximum_QP_fin_difference_rad": 0,
+  "maximum_physical_state_difference": 0,
+  "minimum_actual_available_RAM_GB": 2.3836593627929688,
+  "scope": "Independent guidance/QP and RK4 physical reexecution using recorded route bookkeeping, estimated states and depth targets. Separate raw navigation/payload/map audits required; not a fresh stochastic trial or real-time benchmark."
+}

@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "acceptedScanCapturePose": {
+    "passed": true,
+    "records": 1058,
+    "matched_valid_records": 1058,
+    "missing_truth_times_s": [],
+    "malformed_record_indices": [],
+    "position_violations": 0,
+    "attitude_violations": 0,
+    "position_violation_times_s": [],
+    "attitude_violation_times_s": [],
+    "maximum_actual_position_error_m": 0.689210783747417,
+    "maximum_actual_attitude_error_rad": 0.005019211850727753,
+    "minimum_position_slack_m": 0.16710703032420127,
+    "minimum_attitude_slack_rad": 0.0053544580814623814,
+    "maximum_position_error_time_s": 442,
+    "maximum_attitude_error_time_s": 0.1
+  },
+  "staticGatePose": {
+    "passed": true,
+    "records": 2133,
+    "matched_valid_records": 2133,
+    "missing_truth_times_s": [],
+    "malformed_record_indices": [],
+    "position_violations": 0,
+    "attitude_violations": 0,
+    "position_violation_times_s": [],
+    "attitude_violation_times_s": [],
+    "maximum_actual_position_error_m": 0.68957888658994382,
+    "maximum_actual_attitude_error_rad": 0.00509634538538937,
+    "minimum_position_slack_m": 0.16710703032420127,
+    "minimum_attitude_slack_rad": 0.0053544580814623814,
+    "maximum_position_error_time_s": 442.5,
+    "maximum_attitude_error_time_s": 0
+  },
+  "scope": "Empirical check of archived body position and full quaternion angle against the exact bound on each accepted scan capture and each static gate. Missing truth-time association or malformed pose/bound fails. No confidence calibration, unseen-condition guarantee or between-sample/continuous-time bound claim. Conditional set-fusion arguments require these assumptions independently; this finite audit alone is not their proof."
+}

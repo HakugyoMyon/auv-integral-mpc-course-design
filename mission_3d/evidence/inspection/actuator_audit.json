@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "command_feedback_replay_error": 0,
+  "sampled_fin_error_deg": 4.1560261984154758E-7,
+  "scope": "Finite driver replay and offline sampled plant comparison, not hardware feedback or a general uncertainty proof."
+}

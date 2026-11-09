@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "replayed_samples": 6552,
+  "actualSupportedVisitIds": 1,
+  "onboardComplete": true,
+  "actualReturn": true,
+  "maximumObservedHorizontalNavError_m": 0.28200450819344108,
+  "scope": "Full original-ID visit ledger replay from saved navigation/covariance with actual geometry at each event. Does not replace raw navigation/physics replay or fresh independent trial."
+}

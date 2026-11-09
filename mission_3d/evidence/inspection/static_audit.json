@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "checks": {
+    "packetSchema": true,
+    "captureTimes": true,
+    "admissionsReproduce": true,
+    "committedPrefixesObservedFree": true,
+    "taskReportConsistent": true,
+    "physicsReproduce": true,
+    "actualBodyClearance": true,
+    "actualTerrainClearance": true,
+    "clearanceReportNotOptimistic": true,
+    "controlReplay": true
+  },
+  "replayed_map_gates": 2133,
+  "state_mismatches": 0,
+  "acceptance_mismatches": 0,
+  "committed_free_failures": 0,
+  "physical_samples": 106470,
+  "maximum_physical_state_error": 0,
+  "minimum_actual_obstacle_clearance_m": 10.405707226614592,
+  "minimum_actual_terrain_clearance_m": 7.4630559116756423,
+  "physical_replay_enabled": true,
+  "control_replay_enabled": true,
+  "scope": "Archived capture-time packet/schema/map admission replay and independent RK4 full-body offline clearance. Schema checking detects named truth fields, not a formal whole-program information-flow proof. Sampled 0.01s physical clearance is not continuous-time collision proof. Unexecuted options are explicitly marked; no fresh stochastic or real-world guarantee."
+}

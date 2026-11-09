@@ -1,0 +1,64 @@
+{
+  "schema": "auv.mission.v1",
+  "task": {
+    "schema": "auv.actual_task.v1",
+    "id": "transit_to_worksite",
+    "type": "transit",
+    "startPose": [
+      0,
+      0,
+      0
+    ],
+    "homePose": [
+      0,
+      0,
+      0
+    ],
+    "speed_m_s": 0.8,
+    "minimumTurnRadius_m": 25,
+    "departureLength_m": 20,
+    "maximumTime_s": 1800,
+    "chart": {
+      "operatingBounds": [
+        -60,
+        400,
+        -150,
+        200
+      ],
+      "knownCircles": [],
+      "clearance_m": 7
+    },
+    "depth": {
+      "transit_m": 14,
+      "return_m": 12,
+      "workMode": "depth",
+      "workAltitude_m": 8,
+      "maximumRate_m_s": 0.06
+    },
+    "payload": {
+      "model": "geometric_downlooking_observation_cone",
+      "crossHalfAngle_rad": 1.0035643198967394,
+      "alongHalfAngle_rad": 0.52359877559829882,
+      "maximumRange_m": 20,
+      "nominalNavigationMargin_m": 1.2,
+      "gridResolution_m": 2,
+      "minimumObservations": 3
+    },
+    "homeReturnHeadingRequired": false,
+    "transit": {
+      "destinationNED": [
+        100,
+        0,
+        15
+      ],
+      "captureRadius_m": 3,
+      "maximumBoundDistance_m": 5,
+      "depthTolerance_m": 0.5
+    }
+  },
+  "execution": {
+    "environment": "obstacle_free",
+    "seed": 1104,
+    "avoidanceEnabled": false
+  }
+}

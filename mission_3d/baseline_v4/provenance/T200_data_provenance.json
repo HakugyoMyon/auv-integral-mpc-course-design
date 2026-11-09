@@ -1,0 +1,22 @@
+{
+  "original_url": "https://cad.bluerobotics.com/T200-Public-Performance-Data-10-20V-September-2019.xlsx",
+  "original_sha256": "1399b76df7a176cfbb08760c11731199053336e7d92182dece11824c73285085",
+  "sheet": "16 V",
+  "worksheet_part": "xl/worksheets/sheet5.xml",
+  "rows": 201,
+  "derived_csv": "src/data/T200_static_16V.csv",
+  "derived_sha256": "ed5c2528c9994bd1cb551e077a6fff1bd32cbb6f231bac666e1b160f40aeeb22",
+  "columns": [
+    "PWM_us",
+    "RPM",
+    "current_A",
+    "voltage_V",
+    "power_W",
+    "force_kgf",
+    "force_N"
+  ],
+  "conversion": "force_N=force_kgf*9.80665; other numeric columns unchanged",
+  "maximum_numeric_difference": 0.0,
+  "verified_against_original": true,
+  "scope": "Original workbook and derived table match numerically. Manufacturer static bollard tests, not project measurements or flow-dependent calibration; no additional license claim."
+}

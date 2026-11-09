@@ -1,0 +1,69 @@
+{
+  "schema": "auv.mission.v1",
+  "task": {
+    "schema": "auv.actual_task.v1",
+    "id": "survey_60x24",
+    "type": "survey",
+    "startPose": [
+      0,
+      0,
+      0
+    ],
+    "homePose": [
+      0,
+      0,
+      0
+    ],
+    "speed_m_s": 0.8,
+    "minimumTurnRadius_m": 25,
+    "departureLength_m": 20,
+    "maximumTime_s": 1800,
+    "chart": {
+      "operatingBounds": [
+        -60,
+        400,
+        -150,
+        200
+      ],
+      "knownCircles": [],
+      "clearance_m": 7
+    },
+    "depth": {
+      "transit_m": 14,
+      "return_m": 12,
+      "workMode": "altitude",
+      "workAltitude_m": 8,
+      "maximumRate_m_s": 0.06,
+      "workDepthBounds_m": [
+        4,
+        24
+      ]
+    },
+    "payload": {
+      "model": "geometric_downlooking_observation_cone",
+      "crossHalfAngle_rad": 1.0035643198967394,
+      "alongHalfAngle_rad": 0.52359877559829882,
+      "maximumRange_m": 20,
+      "nominalNavigationMargin_m": 1.2,
+      "gridResolution_m": 2,
+      "minimumObservations": 3
+    },
+    "survey": {
+      "centerNE": [
+        100,
+        35
+      ],
+      "length_m": 60,
+      "width_m": 24,
+      "bearing_rad": 0,
+      "maximumLineSpacing_m": 18,
+      "requiredCoverage": 0.95
+    },
+    "homeReturnHeadingRequired": false
+  },
+  "execution": {
+    "environment": "obstacle_free",
+    "seed": 1101,
+    "avoidanceEnabled": false
+  }
+}

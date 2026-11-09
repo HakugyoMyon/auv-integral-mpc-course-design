@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "accepted_gates": 1312,
+  "evaluated_gates": 1306,
+  "skipped_terminal_incomplete_future_gates": 6,
+  "missing_or_malformed_gates": 0,
+  "body_center_samples": 283402,
+  "bodyX_m": [
+    -1.3,
+    -0.97500000000000009,
+    -0.65,
+    -0.32499999999999996,
+    0,
+    0.32499999999999996,
+    0.65
+  ],
+  "trackingTube_m": 0.5,
+  "maximum_body_translation_increment_error_m": 0.1313712313690876,
+  "increment_peak": {
+    "gateIndex": 469,
+    "gateTime_s": 233.5,
+    "predictionTau_s": 3,
+    "bodyX_m": 0.65,
+    "error_m": 0.1313712313690876,
+    "directBudget_m": 1.9959237439412609
+  },
+  "maximum_direct_body_center_error_m": 0.28838810359954387,
+  "direct_peak": {
+    "gateIndex": 517,
+    "gateTime_s": 257.5,
+    "predictionTau_s": 3,
+    "bodyX_m": 0.65,
+    "error_m": 0.28838810359954387,
+    "directBudget_m": 2.0885306582905834
+  },
+  "minimum_initial_navigation_attitude_plus_tube_slack_m": 1.1756135048895031,
+  "minimum_slack_peak": {
+    "gateIndex": 1294,
+    "gateTime_s": 646,
+    "predictionTau_s": 3,
+    "bodyX_m": 0.65,
+    "error_m": 0.15893182057833827,
+    "directBudget_m": 1.3345453254678414
+  },
+  "increment_tube_violations": 0,
+  "direct_budget_violations": 0,
+  "scope": "Discrete empirical complete 0:0.1:3s archived accepted-gate test of seven longitudinal body centers. Increment error includes future attitude evolution after removing initial center offset. Direct budget uses each gate navigation position bound plus 2*max(abs(bodyX))*sin(attitudeBound/2) plus trackingTube. Not a statistical calibration, continuous-time bound, exhaustive-condition guarantee or replacement for full-body collision audit."
+}

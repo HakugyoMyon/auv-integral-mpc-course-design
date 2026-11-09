@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "replayedPackets": 5324,
+  "confirmedTargets": 7,
+  "firstConfirmationTimes": [
+    625.1,
+    637.30000000000007,
+    649.7,
+    662.1,
+    675,
+    687.30000000000007,
+    700.1
+  ],
+  "scope": "Raw received payload/altimeter and archived navigation replay; actual geometric support at each first confirmation. No real imaging or defect recognition qualification."
+}

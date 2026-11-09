@@ -1,0 +1,54 @@
+{
+  "schema": "auv.mission.v1",
+  "task": {
+    "schema": "auv.actual_task.v1",
+    "id": "return_to_relative_home",
+    "type": "return",
+    "startPose": [
+      0,
+      0,
+      0
+    ],
+    "homePose": [
+      -40,
+      20,
+      0
+    ],
+    "speed_m_s": 0.8,
+    "minimumTurnRadius_m": 25,
+    "departureLength_m": 20,
+    "maximumTime_s": 1800,
+    "chart": {
+      "operatingBounds": [
+        -60,
+        400,
+        -150,
+        200
+      ],
+      "knownCircles": [],
+      "clearance_m": 7
+    },
+    "depth": {
+      "transit_m": 14,
+      "return_m": 12,
+      "workMode": "depth",
+      "workAltitude_m": 8,
+      "maximumRate_m_s": 0.06
+    },
+    "payload": {
+      "model": "geometric_downlooking_observation_cone",
+      "crossHalfAngle_rad": 1.0035643198967394,
+      "alongHalfAngle_rad": 0.52359877559829882,
+      "maximumRange_m": 20,
+      "nominalNavigationMargin_m": 1.2,
+      "gridResolution_m": 2,
+      "minimumObservations": 3
+    },
+    "homeReturnHeadingRequired": false
+  },
+  "execution": {
+    "environment": "obstacle_free",
+    "seed": 1105,
+    "avoidanceEnabled": false
+  }
+}

@@ -17,3 +17,10 @@ Thumbs.db
 .env.*
 *.pem
 *.key
+
+# Current mission outputs and local submission archives
+mission_3d/results/
+*.zip
+mission_3d/evidence/**/*.mat
+**/source_snapshot/
+~$*

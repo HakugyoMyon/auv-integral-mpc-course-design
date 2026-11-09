@@ -1,0 +1,533 @@
+{
+  "schema": "auv.basic_task.package.v1",
+  "sourceFiles": [
+    {
+      "name": "d11_audit_heading_innovations.m",
+      "source": "local-origin/d11_audit_heading_innovations.m",
+      "sha256": "6ad3817483a61e2546cda6e438fd34824c78c1d7682ab4f8576e172ad463e3c6"
+    },
+    {
+      "name": "d11_audit_heading_run.m",
+      "source": "local-origin/d11_audit_heading_run.m",
+      "sha256": "28603dd7cc19305886ed448e2548b0e7c07a5c68012ede9de86fd0d53919a7fd"
+    },
+    {
+      "name": "d11_chart_clear.m",
+      "source": "local-origin/d11_chart_clear.m",
+      "sha256": "faefcdd19c930d2f21291bcee8c1113b8973b99b018a0624e26be0ae3070598f"
+    },
+    {
+      "name": "d11_connect.m",
+      "source": "local-origin/d11_connect.m",
+      "sha256": "b0bdbbead09cafa8abe7f65ccffbf743eac3d8943267c23e7e957180ff395b00"
+    },
+    {
+      "name": "d11_heading_aid_config.m",
+      "source": "local-origin/d11_heading_aid_config.m",
+      "sha256": "afb6ba932d4c45930ea511cd9a57e73f43d3148a1945300736cd067a9989afb0"
+    },
+    {
+      "name": "d11_nav_predict.m",
+      "source": "local-origin/d11_nav_predict.m",
+      "sha256": "a60f26f6cd8788b289ab1c29840e438cdfda7feb51d65a340f8bcc3748496c1f"
+    },
+    {
+      "name": "d11_nav_update.m",
+      "source": "local-origin/d11_nav_update.m",
+      "sha256": "57e7e6bf82d680d5c276f89c9b7bae89d1f02d20d0c491ae358e956ceafacbb2"
+    },
+    {
+      "name": "d11_path_eval.m",
+      "source": "local-origin/d11_path_eval.m",
+      "sha256": "18aca20a033aa15fb421cbae0a922a4bc2583411cfee8690c86f1bc1df18f152"
+    },
+    {
+      "name": "d11_path_preview.m",
+      "source": "local-origin/d11_path_preview.m",
+      "sha256": "ea3a275ac9cf71c2473464ce6aff84208a1de27e227afe7f3fe30b239591be65"
+    },
+    {
+      "name": "d11_path_project.m",
+      "source": "local-origin/d11_path_project.m",
+      "sha256": "e7fabf82364896384df8b33f83373ced4c2fbb00d6366e802dd396046cec7dd2"
+    },
+    {
+      "name": "d11_payload_config.m",
+      "source": "local-origin/d11_payload_config.m",
+      "sha256": "a3fcbae938e1b8d6d5625b648038105cb8a65453ebfa7744abae4de124016bfa"
+    },
+    {
+      "name": "d11_payload_ledger.m",
+      "source": "local-origin/d11_payload_ledger.m",
+      "sha256": "eb6c3be168d6f440ed710fdd06f29aa461bab2a01eb8996659906c4b5e93fa74"
+    },
+    {
+      "name": "d11_payload_observe.m",
+      "source": "local-origin/d11_payload_observe.m",
+      "sha256": "c1914e8ece92eb48fc7dc14705658482b75f220281b4c99efe553b70922740e0"
+    },
+    {
+      "name": "d11_payload_sensor.m",
+      "source": "local-origin/d11_payload_sensor.m",
+      "sha256": "c18a31de2900182e3a94469dc5b9bcb3d2cd244180acbdf3f962d5eab923e898"
+    },
+    {
+      "name": "d11_segment.m",
+      "source": "local-origin/d11_segment.m",
+      "sha256": "3fc47256991c19ec4574ffaf7dbb7f6baf12ed206db4771fcfa0441cfeb6b8b6"
+    },
+    {
+      "name": "d11_task_examples.m",
+      "source": "local-origin/d11_task_examples.m",
+      "sha256": "edb8a463adba4c113280128a778b34893f721cf3964b1af30e61f3b2487d48f4"
+    },
+    {
+      "name": "d11_task_plan.m",
+      "source": "local-origin/d11_task_plan.m",
+      "sha256": "6d0b20ed9e17d8407c09ffcc56e408be5f2cfc125e708a3bf29570df57415c87"
+    },
+    {
+      "name": "d12_payload_truth_check.m",
+      "source": "local-origin/d12_payload_truth_check.m",
+      "sha256": "9adbe191c86db43e40bfb8ef5752d723a6626713cbdc503b1267b9da83c6e798"
+    },
+    {
+      "name": "d14w_fresh_gate.m",
+      "source": "local-origin/d14w_fresh_gate.m",
+      "sha256": "37bba2329813e929fad1b4353d27e7064e998082f40fadc7f401082ab068dab2"
+    },
+    {
+      "name": "d14w_mpc_build.m",
+      "source": "local-origin/d14w_mpc_build.m",
+      "sha256": "aeb5cee2388ff0d4c527c7c930d4208e1b3a2d17cf30f6def3bbd52fb03b9cd4"
+    },
+    {
+      "name": "d14w_mpc_continuous_step.m",
+      "source": "local-origin/d14w_mpc_continuous_step.m",
+      "sha256": "fda7d4aee36aec31467c9b3f92411306d6256863654c1022e95380be6d099b63"
+    },
+    {
+      "name": "d14w_mpc_step.m",
+      "source": "local-origin/d14w_mpc_step.m",
+      "sha256": "ba75609a7c61383af8a94af04500065ffc98a8f461ce95186df5df1e446a1128"
+    },
+    {
+      "name": "d15_connect.m",
+      "source": "local-origin/d15_connect.m",
+      "sha256": "9af1431020171dd186642aed8ddbad565c1a3cd784c7c700fb6d5466acad3081"
+    },
+    {
+      "name": "d15_dubins_candidates.m",
+      "source": "local-origin/d15_dubins_candidates.m",
+      "sha256": "6fac85538b5eac015c57aca43e4953dca1647206e0ed1d64b29df617b0e620be"
+    },
+    {
+      "name": "d15_nav_adapter.m",
+      "source": "local-origin/d15_nav_adapter.m",
+      "sha256": "28f1948bbd9c02f7af60f0e7d07104cae752e1219e905dd0396e8f61ed9eb3b9"
+    },
+    {
+      "name": "d15_runtime_preview.m",
+      "source": "local-origin/d15_runtime_preview.m",
+      "sha256": "f85a9fb030dbb3a98956fffca8cfd0a5dd514e6f2468aa630b671169e3b01cec"
+    },
+    {
+      "name": "d16_actuator_audit.m",
+      "source": "local-origin/d16_actuator_audit.m",
+      "sha256": "3c5ddbd7a5b284c70fcec4615b849b390403e1d104aee4579fbd9cad44a18a5e"
+    },
+    {
+      "name": "d16_actuator_update.m",
+      "source": "local-origin/d16_actuator_update.m",
+      "sha256": "3863fce4dd80adadf41e57b25eb50dfb9ee6727df5afd923b253ccd87bb9c466"
+    },
+    {
+      "name": "d16_guidance.m",
+      "source": "local-origin/d16_guidance.m",
+      "sha256": "086bfae96fdb83a8e2a819cca2490ee312bca11d4c47c648e4911e866a3fc26f"
+    },
+    {
+      "name": "d16_path_preview.m",
+      "source": "local-origin/d16_path_preview.m",
+      "sha256": "0e4fcee9815233a88cf7e19caaabace8a0118b658ee4245115f22e665aae0c93"
+    },
+    {
+      "name": "d42_remaining_plan.m",
+      "source": "local-origin/d42_remaining_plan.m",
+      "sha256": "dd9b1cf41e21bc364ce85c3b63a556ed49087de0d4855db48fc4275c1eb33cbe"
+    },
+    {
+      "name": "d42_task_plan.m",
+      "source": "local-origin/d42_task_plan.m",
+      "sha256": "b27b7f9f20ef2cd43ebd713089a7ca6f3f407e8e364937ffe6a21a92d0bb23a5"
+    },
+    {
+      "name": "d72_fresh_gate.m",
+      "source": "local-origin/d72_fresh_gate.m",
+      "sha256": "439bed2ee0ffdec8dd5241e9e2808d116c9a43bb974645369e57805f3034df40"
+    },
+    {
+      "name": "d8_preview_cache.m",
+      "source": "local-origin/d8_preview_cache.m",
+      "sha256": "ecbf6c3a2bd573b897cc7d6bb87d14189c83196a3a1f87aa4506296bf8de0b98"
+    },
+    {
+      "name": "d8_preview_rhs.m",
+      "source": "local-origin/d8_preview_rhs.m",
+      "sha256": "8ed6021b1e6c929489f2663b1aa73ab5d9c039242ccf9ec5d1c68c31e21c7369"
+    },
+    {
+      "name": "auv6_qmul.m",
+      "source": "local-origin/auv6_qmul.m",
+      "sha256": "7a08c05e615618ca26fc40a2aef0e9256cbc529353a346145db32fedebb861c8"
+    },
+    {
+      "name": "auv6_rotation.m",
+      "source": "local-origin/auv6_rotation.m",
+      "sha256": "ec17f213e96fd5dde0c1cea179b62bdadbc0075a4da25f626879f364f28b2aba"
+    },
+    {
+      "name": "auv6_skew.m",
+      "source": "local-origin/auv6_skew.m",
+      "sha256": "ea056d1e8cdd13dbf247d11e66ce0d7b63af697c96ccc8ae6d5e3ce803c0d2b5"
+    },
+    {
+      "name": "dyn_contract.m",
+      "source": "local-origin/dyn_contract.m",
+      "sha256": "23821fb4c281fbcb321ee2fd266fedebcdd50ce838d5668fa1ace2b527ae7ff2"
+    },
+    {
+      "name": "dyn_nav_adapter.m",
+      "source": "local-origin/dyn_nav_adapter.m",
+      "sha256": "212e3841e982727ab4376c957d3bcef69b90d88173795d073dd077d9e0b6c225"
+    },
+    {
+      "name": "dyn_validate.m",
+      "source": "local-origin/dyn_validate.m",
+      "sha256": "167281d221692bd0c5eaadb32aec2af890e0771874e9a63270f130123a0e9653"
+    },
+    {
+      "name": "auv12b_estimator_parameters.m",
+      "source": "local-origin/auv12b_estimator_parameters.m",
+      "sha256": "c52280e8e2ebd13775e46deb517644f5193acb846e7f86cf18e90ba56184ca09"
+    },
+    {
+      "name": "auv12b_gyro_process_covariance.m",
+      "source": "local-origin/auv12b_gyro_process_covariance.m",
+      "sha256": "76cd72d1197b78b4752a4c285479dd9b2b3a0625dcb01cbb6853a3541cfb8999"
+    },
+    {
+      "name": "auv12b_nav_initialize.m",
+      "source": "local-origin/auv12b_nav_initialize.m",
+      "sha256": "e0535effc8b57aa88ff271885ce4838edd9bb59a304a864fff74849b689e08dd"
+    },
+    {
+      "name": "auv12b_nav_quality.m",
+      "source": "local-origin/auv12b_nav_quality.m",
+      "sha256": "b4664623fa0755e2fded80d890b50ed8e8e6c069716926fdde2ca5014ee7efa7"
+    },
+    {
+      "name": "auv12b_surface_align.m",
+      "source": "local-origin/auv12b_surface_align.m",
+      "sha256": "57409cfaeca6aca7d8ce18813c31204118fd8d234693c00059fdb8705716cc8e"
+    },
+    {
+      "name": "auv12b_surface_config.m",
+      "source": "local-origin/auv12b_surface_config.m",
+      "sha256": "19a785ac9269f29e831dc55976b3c527b88aa9eab19c7e5d2af4bba5de00d011"
+    },
+    {
+      "name": "auv12b_surface_fixture.m",
+      "source": "local-origin/auv12b_surface_fixture.m",
+      "sha256": "a1fc4fa5ad4586871f02ab926993d9d036d895605c204b29dcd4ae55cb24fdef"
+    },
+    {
+      "name": "auv12c_prepare.m",
+      "source": "local-origin/auv12c_prepare.m",
+      "sha256": "72333cdcdde0110d7a1fa04630d238cb803da22b836017b654e524f67aa56ae7"
+    },
+    {
+      "name": "auv6_actuated_rhs.m",
+      "source": "local-origin/auv6_actuated_rhs.m",
+      "sha256": "5a3531e1ca3d43869c57240f6caede19a6a4d8722c1bbfe316c1f89e37ba2f22"
+    },
+    {
+      "name": "auv6_altimeter.m",
+      "source": "local-origin/auv6_altimeter.m",
+      "sha256": "d187219e01291c1350da9d5018d9b6ed4c632a55ad452d1deaff177d3fdbfdd2"
+    },
+    {
+      "name": "auv6_altimeter_config.m",
+      "source": "local-origin/auv6_altimeter_config.m",
+      "sha256": "052f8f086a624d434d23c73de672eda88610ccaec9eee93e0a84ea3e599fc5fe"
+    },
+    {
+      "name": "auv6_altitude_estimate.m",
+      "source": "local-origin/auv6_altitude_estimate.m",
+      "sha256": "e5bab24fcf7e08cf7a581fa46ee6195604ba21f2d84455bb3bb1474e25983eb3"
+    },
+    {
+      "name": "auv6_candidate_config.m",
+      "source": "local-origin/auv6_candidate_config.m",
+      "sha256": "df3a284fd594f9850a682361652e8634e4ceb3a2fe75cdca672b488a3379a5de"
+    },
+    {
+      "name": "auv6_clearance_bound.m",
+      "source": "local-origin/auv6_clearance_bound.m",
+      "sha256": "022e3fae17406f97d404fe33baceebb56e93c5a4b991c690235107f899662c28"
+    },
+    {
+      "name": "auv6_config.m",
+      "source": "local-origin/auv6_config.m",
+      "sha256": "80dd7110865269382ae4155e2a885289433c0948dd6dee6e65e766f5b42e85ba"
+    },
+    {
+      "name": "auv6_euler_state.m",
+      "source": "local-origin/auv6_euler_state.m",
+      "sha256": "4b314a967be9e7495f616f0b0801ac7c99bc53dc3d210f01f578e0d898d0ea38"
+    },
+    {
+      "name": "auv6_fin_config.m",
+      "source": "local-origin/auv6_fin_config.m",
+      "sha256": "769b1a33caf1fa2d1e6bb2547b3196dd5cc73d6149b331488609630ebddbd7d8"
+    },
+    {
+      "name": "auv6_fin_loads.m",
+      "source": "local-origin/auv6_fin_loads.m",
+      "sha256": "c942aab81c7f9d225c385205d5f6c0f4ddab8af79052946c743ce930c2710e55"
+    },
+    {
+      "name": "auv6_from_euler_state.m",
+      "source": "local-origin/auv6_from_euler_state.m",
+      "sha256": "78bdcd1c4cbda512ba83b4091ea93841fdf5cb32bede4d2725306eefd4ccbcd7"
+    },
+    {
+      "name": "auv6_full_trim.m",
+      "source": "local-origin/auv6_full_trim.m",
+      "sha256": "ee46b519af49422380608b7665a6d73fab8a97f18634585faf0cf78ee2209585"
+    },
+    {
+      "name": "auv6_nav_config.m",
+      "source": "local-origin/auv6_nav_config.m",
+      "sha256": "85c9fe3b7ab0f8a6757f5ac4fec60522b49c8ef7758b1bcd3f747eb3e7269c44"
+    },
+    {
+      "name": "auv6_nav_output.m",
+      "source": "local-origin/auv6_nav_output.m",
+      "sha256": "571ccff97c8ca67718b4425e1d089ad6761712360e1c47d833810e7453878dba"
+    },
+    {
+      "name": "auv6_nav_predict.m",
+      "source": "local-origin/auv6_nav_predict.m",
+      "sha256": "8506dd60d77cfeea3c5bbbfd26ab008da1afd0b169c5e36a52e3785d34b6d486"
+    },
+    {
+      "name": "auv6_rhs.m",
+      "source": "local-origin/auv6_rhs.m",
+      "sha256": "b424ecac877e0896589380d217ff956a69869849ee7d967286faf41f90d93a0e"
+    },
+    {
+      "name": "auv6_terrain.m",
+      "source": "local-origin/auv6_terrain.m",
+      "sha256": "843a9005bca0e92ce1a49168b8835da4d0491de71fb1c065240a34a8b32f7fe4"
+    },
+    {
+      "name": "auv6_thrust_pwm.m",
+      "source": "local-origin/auv6_thrust_pwm.m",
+      "sha256": "bc89c1c76cf7c6db94619eac3d8fa49c1b3b481f6b306e2e39742c5723be935e"
+    },
+    {
+      "name": "auv_mpc_dynamics.m",
+      "source": "local-origin/auv_mpc_dynamics.m",
+      "sha256": "803c268fe38e93f3d36e1db32fb10fe270bd187e01a9ebf25e2a85a0c6545c4a"
+    },
+    {
+      "name": "auv_mpc_state.m",
+      "source": "local-origin/auv_mpc_state.m",
+      "sha256": "4cc6810056f479115f161c531f3a4376e90ac763efc6837182917a453f16918e"
+    },
+    {
+      "name": "auv_stationary_gyro_calibration.m",
+      "source": "local-origin/auv_stationary_gyro_calibration.m",
+      "sha256": "bb7edcd4112f10e125f5d3d74151a5718b8de7c89064260ff2b09898dc8c5771"
+    },
+    {
+      "name": "d3_initialize_memory.m",
+      "source": "local-origin/d3_initialize_memory.m",
+      "sha256": "0da0ff812b9ce57fdb972a0f6d5e3fd96f1ad7baf0c916efb00f7f1599394733"
+    },
+    {
+      "name": "AUVTaskSession.m",
+      "source": "local-origin/AUVTaskSession.m",
+      "sha256": "995527eb06a1bccc10fd997b9fb6b65c72fc0a24f3703210c0ca843904a11832"
+    },
+    {
+      "name": "auv_task_audit_fault_windows.m",
+      "source": "local-origin/auv_task_audit_fault_windows.m",
+      "sha256": "db3393c7cf6a2d73fdabb3e0963119be9ef96425a0c32a8bd6b57f854a7f0fe7"
+    },
+    {
+      "name": "auv_task_audit_payload.m",
+      "source": "local-origin/auv_task_audit_payload.m",
+      "sha256": "c05aa554daccdf62e9bd7139d62b33e4cd7f70e967dfc1917dc15c21794b8d1d"
+    },
+    {
+      "name": "auv_task_audit_visit.m",
+      "source": "local-origin/auv_task_audit_visit.m",
+      "sha256": "0c4ea13e207bb9a371dfc78be5b004925d3a10dc58a6f626e0d26e23326c74ee"
+    },
+    {
+      "name": "auv_task_catalog.m",
+      "source": "local-origin/auv_task_catalog.m",
+      "sha256": "db8d92a63ab9495a1412bdbf10be06990a5a2ab94922b19b46290a57efec934e"
+    },
+    {
+      "name": "auv_task_check_capability.m",
+      "source": "local-origin/auv_task_check_capability.m",
+      "sha256": "a913bd01e563b1be3ad6bf36108ea10478c778bbeecafb8457fd14be5b9cc2db"
+    },
+    {
+      "name": "auv_task_config_form.m",
+      "source": "local-origin/auv_task_config_form.m",
+      "sha256": "bb7369975fdce38d0d017e227cf930f032ba44cf2831c5863321965846497901"
+    },
+    {
+      "name": "auv_task_console.m",
+      "source": "local-origin/auv_task_console.m",
+      "sha256": "5c690fd2cb784990921584e5b9e8ebe45a1d9aaa963f98cafebfe770ba1e9416"
+    },
+    {
+      "name": "auv_task_examples.m",
+      "source": "local-origin/auv_task_examples.m",
+      "sha256": "bb1e721925e4b0d08035b000caeeedd17749622c833b82c1d48bfa2931fbf038"
+    },
+    {
+      "name": "auv_task_export.m",
+      "source": "local-origin/auv_task_export.m",
+      "sha256": "b5fc2a318998dcd9010f7dfcf10a947e78476296cc7b56201c6d26e6a31e6834"
+    },
+    {
+      "name": "auv_task_is_point_task.m",
+      "source": "local-origin/auv_task_is_point_task.m",
+      "sha256": "606ca0f1aba32bd73f79e3c73d6533bf5679136a6c8cdf36c7f52b9f5f90df05"
+    },
+    {
+      "name": "auv_task_ledger.m",
+      "source": "local-origin/auv_task_ledger.m",
+      "sha256": "10c390e908ed907d8bae2d24a9112f6cfbb936e7f7790a8876b8eb0b3cbbd0af"
+    },
+    {
+      "name": "auv_task_load.m",
+      "source": "local-origin/auv_task_load.m",
+      "sha256": "c9515f97427fb596f05a702f7813bfc7648aa3d6c0cc69ab14db961b944e6760"
+    },
+    {
+      "name": "auv_task_normalize.m",
+      "source": "local-origin/auv_task_normalize.m",
+      "sha256": "e67d523166a85b4f294612f48ac11ea1e0217468b17dc02c0436afae0c1c8ba1"
+    },
+    {
+      "name": "auv_task_operator_return.m",
+      "source": "local-origin/auv_task_operator_return.m",
+      "sha256": "6e032b562d9f0ad39c4125c092f4701eee8f43b2401224d5b86631735184f11e"
+    },
+    {
+      "name": "auv_task_plan.m",
+      "source": "local-origin/auv_task_plan.m",
+      "sha256": "e48c0bf8b4418b8e302ca4670832fb0ddb8da5006c47040f2ca1720e19448658"
+    },
+    {
+      "name": "auv_task_recovery_plan.m",
+      "source": "local-origin/auv_task_recovery_plan.m",
+      "sha256": "339cf233cd1a22b65f68fb545ccb332a1ad92524b7f1314897a77e9efc59a75c"
+    },
+    {
+      "name": "auv_task_replay_control.m",
+      "source": "local-origin/auv_task_replay_control.m",
+      "sha256": "d7cd7aa23726e7115d9d37c889cc8d6ce6d8009c330963d41a708b1dbd45f1a4"
+    },
+    {
+      "name": "auv_task_run.m",
+      "source": "local-origin/auv_task_run.m",
+      "sha256": "c6808819e9d6d483489042c3effb9c01605def7fa50a302e2875e997159aa92a"
+    },
+    {
+      "name": "auv_task_save.m",
+      "source": "local-origin/auv_task_save.m",
+      "sha256": "c8d54eba875855306868c98e0d3a0a14172ac049fcd1212a443fb720db46f92b"
+    },
+    {
+      "name": "auv_task_step.m",
+      "source": "local-origin/auv_task_step.m",
+      "sha256": "093827c0bee37a723990b831f4c2b829061fb1b6840593e63882be2588dcf3bb"
+    },
+    {
+      "name": "auv_task_terminal.m",
+      "source": "local-origin/auv_task_terminal.m",
+      "sha256": "88f077a75e701ac347fc75c1391207786004069650945f2f86225997ad164b56"
+    },
+    {
+      "name": "auv_task_truth_counts.m",
+      "source": "local-origin/auv_task_truth_counts.m",
+      "sha256": "24dc58af10b38103ee173de44404fef0863aff6bd2bf7a3fbfbbfa637c00ef9a"
+    },
+    {
+      "name": "auv_task_validate.m",
+      "source": "local-origin/auv_task_validate.m",
+      "sha256": "74f941fc55def021490f048cebe5b04382ee16f76cce2d553638c69a39cc7c96"
+    },
+    {
+      "name": "auv_task_vertical_screen.m",
+      "source": "local-origin/auv_task_vertical_screen.m",
+      "sha256": "c287bf25d98c9c5d26562dc2f25c69fd89e54684cb6a501fdc39b6b5b64d0740"
+    },
+    {
+      "name": "auv_task_visit_ledger.m",
+      "source": "local-origin/auv_task_visit_ledger.m",
+      "sha256": "24522ecc779f2d341809258c945421b3cd66b352a0836ea3903426bed2045a3b"
+    },
+    {
+      "name": "auv_task_window_active.m",
+      "source": "local-origin/auv_task_window_active.m",
+      "sha256": "c072748734d045c5c0040f4de84a726ec771805b7a0ad8c96aa5c6cf4ab6584f"
+    }
+  ],
+  "products": [
+    {
+      "Name": "MATLAB",
+      "Version": "24.2",
+      "ProductNumber": 1,
+      "Certain": true
+    },
+    {
+      "Name": "Control System Toolbox",
+      "Version": "24.2",
+      "ProductNumber": 3,
+      "Certain": true
+    },
+    {
+      "Name": "Optimization Toolbox",
+      "Version": "24.2",
+      "ProductNumber": 6,
+      "Certain": true
+    },
+    {
+      "Name": "Navigation Toolbox",
+      "Version": "24.2",
+      "ProductNumber": 176,
+      "Certain": true
+    }
+  ],
+  "inputBudgetSHA256": "11d0cbaf329fc42a35028f347d0dac20571315e027976d0ad6c2e0c8218ef2ba",
+  "qualified": true,
+  "scope": "Fixed-seed MIL complete-task, actual payload-outage recovery, named rejection and GUI/config qualification. Not general operational safety, HIL, real imagery or sea-trial qualification. Desktop entrypoint checked separately.",
+  "parent_version": "package_candidate_v3",
+  "change_scope": "GUI task-type synchronization and cheap impossible vertical-time rejection only. Dynamics, navigation, planner geometry, MPC, actuator model and data unchanged. Final v4 fresh qualification pending.",
+  "qualificationVersion": "v4",
+  "qualificationEvidence": [
+    "T17_final_v4_ui",
+    "T18_final_v4_fresh",
+    "T19_final_v4_recovery",
+    "T20_final_v4_boundaries"
+  ]
+}

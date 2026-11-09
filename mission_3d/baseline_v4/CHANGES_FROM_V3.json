@@ -1,0 +1,12 @@
+[
+  {
+    "file": "auv_task_console.m",
+    "previous_sha256": "0a9da7152c006fe865abfe37c124a44a085c5bf0ea2a5b87cd9fb8f50b697b41",
+    "current_sha256": "5c690fd2cb784990921584e5b9e8ebe45a1d9aaa963f98cafebfe770ba1e9416"
+  },
+  {
+    "file": "auv_task_check_capability.m",
+    "previous_sha256": "f25f896473873ba9d31692c1e297ccf2561c8cc58be2b5165edd3c9e87a5699a",
+    "current_sha256": "a913bd01e563b1be3ad6bf36108ea10478c778bbeecafb8457fd14be5b9cc2db"
+  }
+]

@@ -1,0 +1,39 @@
+from pathlib import Path
+import zipfile,xml.etree.ElementTree as E,json,csv
+r=Path(r'C:\Users\31369\Desktop\水下机器人课程作业_俞承志\机械设计_V2');p=r/'00_模板与依据/推进器厂家资料/T200_Performance_2019.xlsx'
+ns={'s':'http://schemas.openxmlformats.org/spreadsheetml/2006/main'}
+with zipfile.ZipFile(p) as z:
+ strings=[''.join(x.itertext()) for x in E.fromstring(z.read('xl/sharedStrings.xml')).findall('s:si',ns)]
+ sheets={}
+ for name,num in [('READ ME FIRST',1)]+[(f'{v} V',i+2) for i,v in enumerate(range(10,21,2))]:
+  rows=[]
+  for row in E.fromstring(z.read(f'xl/worksheets/sheet{num}.xml')).findall('s:sheetData/s:row',ns):
+   cells={}
+   for c in row.findall('s:c',ns):
+    v=c.find('s:v',ns)
+    if v is None:continue
+    value=v.text
+    if c.attrib.get('t')=='s':value=strings[int(value)]
+    cells[c.attrib['r']]=value
+   if cells:rows.append(cells)
+  sheets[name]=rows
+ notes=E.fromstring(z.read('xl/drawings/drawing1.xml'))
+ note_text='\n'.join(t.text or '' for t in notes.iter() if t.tag.endswith('}t'))
+ (Path(__file__).parent/'t200_test_notes.txt').write_text(note_text,encoding='utf-8')
+(Path(__file__).parent/'t200_performance_cells.json').write_text(json.dumps(sheets,ensure_ascii=False,indent=2),encoding='utf-8')
+out=r/'01_结构方案';summary={}
+for voltage in range(10,21,2):
+ data=[]
+ for row in sheets[f'{voltage} V'][1:]:
+  vals={key.rstrip('0123456789'):value for key,value in row.items()}
+  if not all(k in vals for k in 'ABCDEF'):continue
+  try:values=[float(vals[k]) for k in 'ABCDEF']
+  except ValueError:continue
+  pwm,rpm,current,V,power,kgf=values
+  data.append({'PWM_us':pwm,'RPM':rpm,'current_A':current,'voltage_V':V,'power_W':power,'force_kgf':kgf,'force_N':kgf*9.80665})
+ assert len(data)>100 and any(x['PWM_us']==1500 for x in data)
+ with (out/f'推进器_T200_原始静态曲线_{voltage}V.csv').open('w',encoding='utf-8-sig',newline='') as f:
+  writer=csv.DictWriter(f,fieldnames=data[0].keys());writer.writeheader();writer.writerows(data)
+ summary[str(voltage)]={'points':len(data),'forward_full':next(x for x in data if x['PWM_us']==1900),'reverse_full':next(x for x in data if x['PWM_us']==1100),'max_running_electrical_torque_bound_Nm':max(x['power_W']/(x['RPM']*2*3.141592653589793/60) for x in data if x['RPM']>=300),'examples':[x for x in data if x['PWM_us'] in [1500,1600,1700,1800,1900]]}
+(out/'推进器_T200_静态数据摘要.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2),encoding='utf-8')
+print(json.dumps(summary,ensure_ascii=True,indent=2))

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "nativeSaveAndLoadButtonsUsed": true,
+  "beforeReloadMode": "obstacle_free",
+  "beforeReloadWorldSeed": 999,
+  "restoredMode": "static_unknown",
+  "restoredWorldSeed": 81001,
+  "restoredScene": "inspection_transit",
+  "file": "local-origin/native_saved_inspection.json"
+}

@@ -2,3 +2,7 @@
 *.mat binary
 *.slx binary
 *.png binary
+
+*.pdf binary
+*.DWG binary
+*.xlsx binary

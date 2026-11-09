@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "heading_packets": 5324,
+  "underwater_GNSS_packets": 0,
+  "minimum_covariance_eigenvalue": 2.4106192684028513E-11,
+  "maximum_reported_yawStd_deg": 0.16484190541607263,
+  "maximum_observed_yaw_error_deg": 0.13120667493702104,
+  "maximum_observed_horizontal_error_m": 0.68987817625764147,
+  "minimum_available_RAM_GB": 2.849700927734375,
+  "physical_task_pass": true,
+  "scope": "Recorded covariance/quality and packet audit. Actual errors are observed samples, not proof of calibrated confidence, magnetic immunity or operational safety."
+}

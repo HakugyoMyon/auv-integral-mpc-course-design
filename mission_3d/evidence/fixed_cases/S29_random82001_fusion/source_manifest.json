@@ -1,0 +1,678 @@
+[
+  {
+    "relativePath": "input_budget.json",
+    "sha256": "11d0cbaf329fc42a35028f347d0dac20571315e027976d0ad6c2e0c8218ef2ba"
+  },
+  {
+    "relativePath": "run_static_case.m",
+    "sha256": "b04d45a0039a81cbd548b36da9b48036c5af6a49501ad4a3d0c10d4191ebeb74"
+  },
+  {
+    "relativePath": "run_static_mission.m",
+    "sha256": "c88acdd55c61e0943ae6c9b797776a7f18ca5ecbb42f9d254fcb51a9f67313ed"
+  },
+  {
+    "relativePath": "sta_audit_batch_job.m",
+    "sha256": "a203d97750edb8c86fd447a66d780a40ed350518e3d6c5b0e7cbb681f255e392"
+  },
+  {
+    "relativePath": "sta_audit_job.m",
+    "sha256": "f7c39cb165d32b4771447f605c1611f4c14f773f5887a16d7afd738d1ca8a385"
+  },
+  {
+    "relativePath": "sta_batch_job.m",
+    "sha256": "9f912b0380199cc231b857017232ba6f9791d361f71b2be129205c23015c64fd"
+  },
+  {
+    "relativePath": "sta_export.m",
+    "sha256": "fc28ee43246194914b7679750d59aa638b9278d1ba854101069134b339881faa"
+  },
+  {
+    "relativePath": "sta_job.m",
+    "sha256": "77f11e6246ff4cf80cc85be71f33ccbe23577f6dd745f3cf84121215f06edfc1"
+  },
+  {
+    "relativePath": "sta_load.m",
+    "sha256": "88581c7448bdb869dd778400684aef3de9224544a513f16c9fd2a4ab7cdefa58"
+  },
+  {
+    "relativePath": "sta_nav_contract.m",
+    "sha256": "d1b9bdf9489c312220e6759450683e75271aedae7de31f680b0defbc713907e7"
+  },
+  {
+    "relativePath": "sta_nominal_probe.m",
+    "sha256": "0ff1c88e9c487be1906e99dc9d072ca26ef595055919bb3e2f93fb6433c655aa"
+  },
+  {
+    "relativePath": "sta_run.m",
+    "sha256": "553fdb1c772c10330b9643012629b90ccf2fe4f1d6dc0853de42a40a5eee07b8"
+  },
+  {
+    "relativePath": "sta_scene.m",
+    "sha256": "66cfc61086974c52bdf88067641a6842e69c093332819d0751ac54924ea1145d"
+  },
+  {
+    "relativePath": "sta_snapshot.m",
+    "sha256": "c371a90d29560ef9faa2856f69368cc2633352f10b0a2b45d662b4651f6795fb"
+  },
+  {
+    "relativePath": "sta_step.m",
+    "sha256": "0a497fc1b9409345f179df481ff75a836890b010c6aff0344b72d320586273e7"
+  },
+  {
+    "relativePath": "sta_trajectory_query.m",
+    "sha256": "e70e8a98310c627b0aa1f1a951a77d371a5e86dec8afae07ef6b2ff65da42abb"
+  },
+  {
+    "relativePath": "sta_world_clearance.m",
+    "sha256": "cef0226a838d02d7c49d00ddee142149d82a1c23cba3797ebc08ed55a044a799"
+  },
+  {
+    "relativePath": "baseline_src\\AUVTaskSession.m",
+    "sha256": "995527eb06a1bccc10fd997b9fb6b65c72fc0a24f3703210c0ca843904a11832"
+  },
+  {
+    "relativePath": "baseline_src\\auv12b_estimator_parameters.m",
+    "sha256": "c52280e8e2ebd13775e46deb517644f5193acb846e7f86cf18e90ba56184ca09"
+  },
+  {
+    "relativePath": "baseline_src\\auv12b_gyro_process_covariance.m",
+    "sha256": "76cd72d1197b78b4752a4c285479dd9b2b3a0625dcb01cbb6853a3541cfb8999"
+  },
+  {
+    "relativePath": "baseline_src\\auv12b_nav_initialize.m",
+    "sha256": "e0535effc8b57aa88ff271885ce4838edd9bb59a304a864fff74849b689e08dd"
+  },
+  {
+    "relativePath": "baseline_src\\auv12b_nav_quality.m",
+    "sha256": "b4664623fa0755e2fded80d890b50ed8e8e6c069716926fdde2ca5014ee7efa7"
+  },
+  {
+    "relativePath": "baseline_src\\auv12b_surface_align.m",
+    "sha256": "57409cfaeca6aca7d8ce18813c31204118fd8d234693c00059fdb8705716cc8e"
+  },
+  {
+    "relativePath": "baseline_src\\auv12b_surface_config.m",
+    "sha256": "19a785ac9269f29e831dc55976b3c527b88aa9eab19c7e5d2af4bba5de00d011"
+  },
+  {
+    "relativePath": "baseline_src\\auv12b_surface_fixture.m",
+    "sha256": "a1fc4fa5ad4586871f02ab926993d9d036d895605c204b29dcd4ae55cb24fdef"
+  },
+  {
+    "relativePath": "baseline_src\\auv12c_prepare.m",
+    "sha256": "72333cdcdde0110d7a1fa04630d238cb803da22b836017b654e524f67aa56ae7"
+  },
+  {
+    "relativePath": "baseline_src\\auv6_actuated_rhs.m",
+    "sha256": "5a3531e1ca3d43869c57240f6caede19a6a4d8722c1bbfe316c1f89e37ba2f22"
+  },
+  {
+    "relativePath": "baseline_src\\auv6_altimeter.m",
+    "sha256": "d187219e01291c1350da9d5018d9b6ed4c632a55ad452d1deaff177d3fdbfdd2"
+  },
+  {
+    "relativePath": "baseline_src\\auv6_altimeter_config.m",
+    "sha256": "052f8f086a624d434d23c73de672eda88610ccaec9eee93e0a84ea3e599fc5fe"
+  },
+  {
+    "relativePath": "baseline_src\\auv6_altitude_estimate.m",
+    "sha256": "e5bab24fcf7e08cf7a581fa46ee6195604ba21f2d84455bb3bb1474e25983eb3"
+  },
+  {
+    "relativePath": "baseline_src\\auv6_candidate_config.m",
+    "sha256": "df3a284fd594f9850a682361652e8634e4ceb3a2fe75cdca672b488a3379a5de"
+  },
+  {
+    "relativePath": "baseline_src\\auv6_clearance_bound.m",
+    "sha256": "022e3fae17406f97d404fe33baceebb56e93c5a4b991c690235107f899662c28"
+  },
+  {
+    "relativePath": "baseline_src\\auv6_config.m",
+    "sha256": "80dd7110865269382ae4155e2a885289433c0948dd6dee6e65e766f5b42e85ba"
+  },
+  {
+    "relativePath": "baseline_src\\auv6_euler_state.m",
+    "sha256": "4b314a967be9e7495f616f0b0801ac7c99bc53dc3d210f01f578e0d898d0ea38"
+  },
+  {
+    "relativePath": "baseline_src\\auv6_fin_config.m",
+    "sha256": "769b1a33caf1fa2d1e6bb2547b3196dd5cc73d6149b331488609630ebddbd7d8"
+  },
+  {
+    "relativePath": "baseline_src\\auv6_fin_loads.m",
+    "sha256": "c942aab81c7f9d225c385205d5f6c0f4ddab8af79052946c743ce930c2710e55"
+  },
+  {
+    "relativePath": "baseline_src\\auv6_from_euler_state.m",
+    "sha256": "78bdcd1c4cbda512ba83b4091ea93841fdf5cb32bede4d2725306eefd4ccbcd7"
+  },
+  {
+    "relativePath": "baseline_src\\auv6_full_trim.m",
+    "sha256": "ee46b519af49422380608b7665a6d73fab8a97f18634585faf0cf78ee2209585"
+  },
+  {
+    "relativePath": "baseline_src\\auv6_nav_config.m",
+    "sha256": "85c9fe3b7ab0f8a6757f5ac4fec60522b49c8ef7758b1bcd3f747eb3e7269c44"
+  },
+  {
+    "relativePath": "baseline_src\\auv6_nav_output.m",
+    "sha256": "571ccff97c8ca67718b4425e1d089ad6761712360e1c47d833810e7453878dba"
+  },
+  {
+    "relativePath": "baseline_src\\auv6_nav_predict.m",
+    "sha256": "8506dd60d77cfeea3c5bbbfd26ab008da1afd0b169c5e36a52e3785d34b6d486"
+  },
+  {
+    "relativePath": "baseline_src\\auv6_qmul.m",
+    "sha256": "7a08c05e615618ca26fc40a2aef0e9256cbc529353a346145db32fedebb861c8"
+  },
+  {
+    "relativePath": "baseline_src\\auv6_rhs.m",
+    "sha256": "b424ecac877e0896589380d217ff956a69869849ee7d967286faf41f90d93a0e"
+  },
+  {
+    "relativePath": "baseline_src\\auv6_rotation.m",
+    "sha256": "ec17f213e96fd5dde0c1cea179b62bdadbc0075a4da25f626879f364f28b2aba"
+  },
+  {
+    "relativePath": "baseline_src\\auv6_skew.m",
+    "sha256": "ea056d1e8cdd13dbf247d11e66ce0d7b63af697c96ccc8ae6d5e3ce803c0d2b5"
+  },
+  {
+    "relativePath": "baseline_src\\auv6_terrain.m",
+    "sha256": "843a9005bca0e92ce1a49168b8835da4d0491de71fb1c065240a34a8b32f7fe4"
+  },
+  {
+    "relativePath": "baseline_src\\auv6_thrust_pwm.m",
+    "sha256": "bc89c1c76cf7c6db94619eac3d8fa49c1b3b481f6b306e2e39742c5723be935e"
+  },
+  {
+    "relativePath": "baseline_src\\auv_mpc_dynamics.m",
+    "sha256": "803c268fe38e93f3d36e1db32fb10fe270bd187e01a9ebf25e2a85a0c6545c4a"
+  },
+  {
+    "relativePath": "baseline_src\\auv_mpc_state.m",
+    "sha256": "4cc6810056f479115f161c531f3a4376e90ac763efc6837182917a453f16918e"
+  },
+  {
+    "relativePath": "baseline_src\\auv_stationary_gyro_calibration.m",
+    "sha256": "bb7edcd4112f10e125f5d3d74151a5718b8de7c89064260ff2b09898dc8c5771"
+  },
+  {
+    "relativePath": "baseline_src\\auv_task_audit_fault_windows.m",
+    "sha256": "db3393c7cf6a2d73fdabb3e0963119be9ef96425a0c32a8bd6b57f854a7f0fe7"
+  },
+  {
+    "relativePath": "baseline_src\\auv_task_audit_payload.m",
+    "sha256": "c05aa554daccdf62e9bd7139d62b33e4cd7f70e967dfc1917dc15c21794b8d1d"
+  },
+  {
+    "relativePath": "baseline_src\\auv_task_audit_visit.m",
+    "sha256": "0c4ea13e207bb9a371dfc78be5b004925d3a10dc58a6f626e0d26e23326c74ee"
+  },
+  {
+    "relativePath": "baseline_src\\auv_task_catalog.m",
+    "sha256": "db8d92a63ab9495a1412bdbf10be06990a5a2ab94922b19b46290a57efec934e"
+  },
+  {
+    "relativePath": "baseline_src\\auv_task_check_capability.m",
+    "sha256": "a913bd01e563b1be3ad6bf36108ea10478c778bbeecafb8457fd14be5b9cc2db"
+  },
+  {
+    "relativePath": "baseline_src\\auv_task_config_form.m",
+    "sha256": "bb7369975fdce38d0d017e227cf930f032ba44cf2831c5863321965846497901"
+  },
+  {
+    "relativePath": "baseline_src\\auv_task_console.m",
+    "sha256": "5c690fd2cb784990921584e5b9e8ebe45a1d9aaa963f98cafebfe770ba1e9416"
+  },
+  {
+    "relativePath": "baseline_src\\auv_task_examples.m",
+    "sha256": "bb1e721925e4b0d08035b000caeeedd17749622c833b82c1d48bfa2931fbf038"
+  },
+  {
+    "relativePath": "baseline_src\\auv_task_export.m",
+    "sha256": "b5fc2a318998dcd9010f7dfcf10a947e78476296cc7b56201c6d26e6a31e6834"
+  },
+  {
+    "relativePath": "baseline_src\\auv_task_is_point_task.m",
+    "sha256": "606ca0f1aba32bd73f79e3c73d6533bf5679136a6c8cdf36c7f52b9f5f90df05"
+  },
+  {
+    "relativePath": "baseline_src\\auv_task_ledger.m",
+    "sha256": "10c390e908ed907d8bae2d24a9112f6cfbb936e7f7790a8876b8eb0b3cbbd0af"
+  },
+  {
+    "relativePath": "baseline_src\\auv_task_load.m",
+    "sha256": "c9515f97427fb596f05a702f7813bfc7648aa3d6c0cc69ab14db961b944e6760"
+  },
+  {
+    "relativePath": "baseline_src\\auv_task_normalize.m",
+    "sha256": "e67d523166a85b4f294612f48ac11ea1e0217468b17dc02c0436afae0c1c8ba1"
+  },
+  {
+    "relativePath": "baseline_src\\auv_task_operator_return.m",
+    "sha256": "6e032b562d9f0ad39c4125c092f4701eee8f43b2401224d5b86631735184f11e"
+  },
+  {
+    "relativePath": "baseline_src\\auv_task_plan.m",
+    "sha256": "e48c0bf8b4418b8e302ca4670832fb0ddb8da5006c47040f2ca1720e19448658"
+  },
+  {
+    "relativePath": "baseline_src\\auv_task_recovery_plan.m",
+    "sha256": "339cf233cd1a22b65f68fb545ccb332a1ad92524b7f1314897a77e9efc59a75c"
+  },
+  {
+    "relativePath": "baseline_src\\auv_task_replay_control.m",
+    "sha256": "d7cd7aa23726e7115d9d37c889cc8d6ce6d8009c330963d41a708b1dbd45f1a4"
+  },
+  {
+    "relativePath": "baseline_src\\auv_task_run.m",
+    "sha256": "c6808819e9d6d483489042c3effb9c01605def7fa50a302e2875e997159aa92a"
+  },
+  {
+    "relativePath": "baseline_src\\auv_task_save.m",
+    "sha256": "c8d54eba875855306868c98e0d3a0a14172ac049fcd1212a443fb720db46f92b"
+  },
+  {
+    "relativePath": "baseline_src\\auv_task_step.m",
+    "sha256": "093827c0bee37a723990b831f4c2b829061fb1b6840593e63882be2588dcf3bb"
+  },
+  {
+    "relativePath": "baseline_src\\auv_task_terminal.m",
+    "sha256": "88f077a75e701ac347fc75c1391207786004069650945f2f86225997ad164b56"
+  },
+  {
+    "relativePath": "baseline_src\\auv_task_truth_counts.m",
+    "sha256": "24dc58af10b38103ee173de44404fef0863aff6bd2bf7a3fbfbbfa637c00ef9a"
+  },
+  {
+    "relativePath": "baseline_src\\auv_task_validate.m",
+    "sha256": "74f941fc55def021490f048cebe5b04382ee16f76cce2d553638c69a39cc7c96"
+  },
+  {
+    "relativePath": "baseline_src\\auv_task_vertical_screen.m",
+    "sha256": "c287bf25d98c9c5d26562dc2f25c69fd89e54684cb6a501fdc39b6b5b64d0740"
+  },
+  {
+    "relativePath": "baseline_src\\auv_task_visit_ledger.m",
+    "sha256": "24522ecc779f2d341809258c945421b3cd66b352a0836ea3903426bed2045a3b"
+  },
+  {
+    "relativePath": "baseline_src\\auv_task_window_active.m",
+    "sha256": "c072748734d045c5c0040f4de84a726ec771805b7a0ad8c96aa5c6cf4ab6584f"
+  },
+  {
+    "relativePath": "baseline_src\\d11_audit_heading_innovations.m",
+    "sha256": "6ad3817483a61e2546cda6e438fd34824c78c1d7682ab4f8576e172ad463e3c6"
+  },
+  {
+    "relativePath": "baseline_src\\d11_audit_heading_run.m",
+    "sha256": "28603dd7cc19305886ed448e2548b0e7c07a5c68012ede9de86fd0d53919a7fd"
+  },
+  {
+    "relativePath": "baseline_src\\d11_chart_clear.m",
+    "sha256": "faefcdd19c930d2f21291bcee8c1113b8973b99b018a0624e26be0ae3070598f"
+  },
+  {
+    "relativePath": "baseline_src\\d11_connect.m",
+    "sha256": "b0bdbbead09cafa8abe7f65ccffbf743eac3d8943267c23e7e957180ff395b00"
+  },
+  {
+    "relativePath": "baseline_src\\d11_heading_aid_config.m",
+    "sha256": "afb6ba932d4c45930ea511cd9a57e73f43d3148a1945300736cd067a9989afb0"
+  },
+  {
+    "relativePath": "baseline_src\\d11_nav_predict.m",
+    "sha256": "a60f26f6cd8788b289ab1c29840e438cdfda7feb51d65a340f8bcc3748496c1f"
+  },
+  {
+    "relativePath": "baseline_src\\d11_nav_update.m",
+    "sha256": "57e7e6bf82d680d5c276f89c9b7bae89d1f02d20d0c491ae358e956ceafacbb2"
+  },
+  {
+    "relativePath": "baseline_src\\d11_path_eval.m",
+    "sha256": "18aca20a033aa15fb421cbae0a922a4bc2583411cfee8690c86f1bc1df18f152"
+  },
+  {
+    "relativePath": "baseline_src\\d11_path_preview.m",
+    "sha256": "ea3a275ac9cf71c2473464ce6aff84208a1de27e227afe7f3fe30b239591be65"
+  },
+  {
+    "relativePath": "baseline_src\\d11_path_project.m",
+    "sha256": "e7fabf82364896384df8b33f83373ced4c2fbb00d6366e802dd396046cec7dd2"
+  },
+  {
+    "relativePath": "baseline_src\\d11_payload_config.m",
+    "sha256": "a3fcbae938e1b8d6d5625b648038105cb8a65453ebfa7744abae4de124016bfa"
+  },
+  {
+    "relativePath": "baseline_src\\d11_payload_ledger.m",
+    "sha256": "eb6c3be168d6f440ed710fdd06f29aa461bab2a01eb8996659906c4b5e93fa74"
+  },
+  {
+    "relativePath": "baseline_src\\d11_payload_observe.m",
+    "sha256": "c1914e8ece92eb48fc7dc14705658482b75f220281b4c99efe553b70922740e0"
+  },
+  {
+    "relativePath": "baseline_src\\d11_payload_sensor.m",
+    "sha256": "c18a31de2900182e3a94469dc5b9bcb3d2cd244180acbdf3f962d5eab923e898"
+  },
+  {
+    "relativePath": "baseline_src\\d11_segment.m",
+    "sha256": "3fc47256991c19ec4574ffaf7dbb7f6baf12ed206db4771fcfa0441cfeb6b8b6"
+  },
+  {
+    "relativePath": "baseline_src\\d11_task_examples.m",
+    "sha256": "edb8a463adba4c113280128a778b34893f721cf3964b1af30e61f3b2487d48f4"
+  },
+  {
+    "relativePath": "baseline_src\\d11_task_plan.m",
+    "sha256": "6d0b20ed9e17d8407c09ffcc56e408be5f2cfc125e708a3bf29570df57415c87"
+  },
+  {
+    "relativePath": "baseline_src\\d12_payload_truth_check.m",
+    "sha256": "9adbe191c86db43e40bfb8ef5752d723a6626713cbdc503b1267b9da83c6e798"
+  },
+  {
+    "relativePath": "baseline_src\\d14w_fresh_gate.m",
+    "sha256": "37bba2329813e929fad1b4353d27e7064e998082f40fadc7f401082ab068dab2"
+  },
+  {
+    "relativePath": "baseline_src\\d14w_mpc_build.m",
+    "sha256": "aeb5cee2388ff0d4c527c7c930d4208e1b3a2d17cf30f6def3bbd52fb03b9cd4"
+  },
+  {
+    "relativePath": "baseline_src\\d14w_mpc_continuous_step.m",
+    "sha256": "fda7d4aee36aec31467c9b3f92411306d6256863654c1022e95380be6d099b63"
+  },
+  {
+    "relativePath": "baseline_src\\d14w_mpc_step.m",
+    "sha256": "ba75609a7c61383af8a94af04500065ffc98a8f461ce95186df5df1e446a1128"
+  },
+  {
+    "relativePath": "baseline_src\\d15_connect.m",
+    "sha256": "9af1431020171dd186642aed8ddbad565c1a3cd784c7c700fb6d5466acad3081"
+  },
+  {
+    "relativePath": "baseline_src\\d15_dubins_candidates.m",
+    "sha256": "6fac85538b5eac015c57aca43e4953dca1647206e0ed1d64b29df617b0e620be"
+  },
+  {
+    "relativePath": "baseline_src\\d15_nav_adapter.m",
+    "sha256": "28f1948bbd9c02f7af60f0e7d07104cae752e1219e905dd0396e8f61ed9eb3b9"
+  },
+  {
+    "relativePath": "baseline_src\\d15_runtime_preview.m",
+    "sha256": "f85a9fb030dbb3a98956fffca8cfd0a5dd514e6f2468aa630b671169e3b01cec"
+  },
+  {
+    "relativePath": "baseline_src\\d16_actuator_audit.m",
+    "sha256": "3c5ddbd7a5b284c70fcec4615b849b390403e1d104aee4579fbd9cad44a18a5e"
+  },
+  {
+    "relativePath": "baseline_src\\d16_actuator_update.m",
+    "sha256": "3863fce4dd80adadf41e57b25eb50dfb9ee6727df5afd923b253ccd87bb9c466"
+  },
+  {
+    "relativePath": "baseline_src\\d16_guidance.m",
+    "sha256": "086bfae96fdb83a8e2a819cca2490ee312bca11d4c47c648e4911e866a3fc26f"
+  },
+  {
+    "relativePath": "baseline_src\\d16_path_preview.m",
+    "sha256": "0e4fcee9815233a88cf7e19caaabace8a0118b658ee4245115f22e665aae0c93"
+  },
+  {
+    "relativePath": "baseline_src\\d3_initialize_memory.m",
+    "sha256": "0da0ff812b9ce57fdb972a0f6d5e3fd96f1ad7baf0c916efb00f7f1599394733"
+  },
+  {
+    "relativePath": "baseline_src\\d42_remaining_plan.m",
+    "sha256": "dd9b1cf41e21bc364ce85c3b63a556ed49087de0d4855db48fc4275c1eb33cbe"
+  },
+  {
+    "relativePath": "baseline_src\\d42_task_plan.m",
+    "sha256": "b27b7f9f20ef2cd43ebd713089a7ca6f3f407e8e364937ffe6a21a92d0bb23a5"
+  },
+  {
+    "relativePath": "baseline_src\\d72_fresh_gate.m",
+    "sha256": "439bed2ee0ffdec8dd5241e9e2808d116c9a43bb974645369e57805f3034df40"
+  },
+  {
+    "relativePath": "baseline_src\\d8_preview_cache.m",
+    "sha256": "ecbf6c3a2bd573b897cc7d6bb87d14189c83196a3a1f87aa4506296bf8de0b98"
+  },
+  {
+    "relativePath": "baseline_src\\d8_preview_rhs.m",
+    "sha256": "8ed6021b1e6c929489f2663b1aa73ab5d9c039242ccf9ec5d1c68c31e21c7369"
+  },
+  {
+    "relativePath": "baseline_src\\dyn_contract.m",
+    "sha256": "23821fb4c281fbcb321ee2fd266fedebcdd50ce838d5668fa1ace2b527ae7ff2"
+  },
+  {
+    "relativePath": "baseline_src\\dyn_nav_adapter.m",
+    "sha256": "212e3841e982727ab4376c957d3bcef69b90d88173795d073dd077d9e0b6c225"
+  },
+  {
+    "relativePath": "baseline_src\\dyn_validate.m",
+    "sha256": "167281d221692bd0c5eaadb32aec2af890e0771874e9a63270f130123a0e9653"
+  },
+  {
+    "relativePath": "baseline_src\\data\\T200_static_16V.csv",
+    "sha256": "ed5c2528c9994bd1cb551e077a6fff1bd32cbb6f231bac666e1b160f40aeeb22"
+  },
+  {
+    "relativePath": "baseline_src\\data\\mass_budget.json",
+    "sha256": "040dcaed4d678763edac86ffa3f0f4c04ad366030701169d812f2e7f01c3f59a"
+  },
+  {
+    "relativePath": "baseline_src\\data\\sensor_mounts.json",
+    "sha256": "349d68b074a2e9992508b201494002f69ed9be0d1a7f36d0d2fcec4acb3456be"
+  },
+  {
+    "relativePath": "perception\\FUSION_EXPERIMENT.md",
+    "sha256": "b662147fa7e8f4a81df829f0b0e10b1394adf7784d47ece2213dfe2cc8fee593"
+  },
+  {
+    "relativePath": "perception\\PERCEPTION_SCOPE.md",
+    "sha256": "78677dfc7610ed40816b13b5570b984cdb685e62b95abfff3cd230342a829f57"
+  },
+  {
+    "relativePath": "perception\\sta_altimeter.m",
+    "sha256": "769dca84c76b91b0f078d7e665fdfef768e8c6b03e5d7f6d674e07173b550fd9"
+  },
+  {
+    "relativePath": "perception\\sta_body_prediction_audit.m",
+    "sha256": "53d6c1c08770f5bac19032de601ac5b095d49eec2eb61323a46887d1c5c542b4"
+  },
+  {
+    "relativePath": "perception\\sta_bottom_geometry.m",
+    "sha256": "6f79e3ca3b49f5490adc6700bf54df0fb872163c29b0d212b25637ffdb78951f"
+  },
+  {
+    "relativePath": "perception\\sta_downlooking_contract.m",
+    "sha256": "a81414b30e699992030314b2ed89c3c573da5d6fccd741c54965713e63966bb7"
+  },
+  {
+    "relativePath": "perception\\sta_downlooking_occluded.m",
+    "sha256": "0dfc2310868fa77964b21dd43a0616f84f89db7a1852c4c5fc0f828827922f2c"
+  },
+  {
+    "relativePath": "perception\\sta_export_experiment.m",
+    "sha256": "1e7e4f5829e7c83cd4fcd13f3e0cb8917a35ab7dab0652d827510e8cb4958fc6"
+  },
+  {
+    "relativePath": "perception\\sta_fusion_contract.m",
+    "sha256": "a790d1cb8a688c049a318f56448084b3018ea9592378a08b420ccae9467d56ac"
+  },
+  {
+    "relativePath": "perception\\sta_fusion_world_contract.m",
+    "sha256": "bc5dc40dabd093b8f8484e38078a2851a9b4b0ac1409940718715afdb568fe13"
+  },
+  {
+    "relativePath": "perception\\sta_map_init.m",
+    "sha256": "d7d0fbfde16bb4f71550044cf5171aef0276bdf2284907e786eaddc3b16890fa"
+  },
+  {
+    "relativePath": "perception\\sta_map_query.m",
+    "sha256": "93e941ef6f38b3ebe5e994b743c53f67342dc0b8668716f95d117a6c5847ba44"
+  },
+  {
+    "relativePath": "perception\\sta_map_query_fusion.m",
+    "sha256": "4cdcf3fbef9c03e80c9a7baabb7cee7e3a189640850b9221fee0c405da2e59dc"
+  },
+  {
+    "relativePath": "perception\\sta_map_update.m",
+    "sha256": "8307f1800307d4827e8589dbaf1906b1c53133d4c421185c2feab20ded360452"
+  },
+  {
+    "relativePath": "perception\\sta_nav_envelope_audit.m",
+    "sha256": "0c1bc207e4899f223b4b45079cf4016b1ea415ea4c10dbd2404f8faf90d1a8c7"
+  },
+  {
+    "relativePath": "perception\\sta_payload_sensor.m",
+    "sha256": "7e9ff4cc8555833078093dce8954138167b357b1dcc384d0344a49a052d3bb08"
+  },
+  {
+    "relativePath": "perception\\sta_perception_contract.m",
+    "sha256": "c5ed73d263db95e6d5163f61ed2726c01ba3b67c6ab8202d941144b173b90e64"
+  },
+  {
+    "relativePath": "perception\\sta_plot_result.m",
+    "sha256": "8be5aca3cb9af05ae89d10b5e3df0abbb5b7152bb2b5c8f41fbf39933f30f865"
+  },
+  {
+    "relativePath": "perception\\sta_prediction_tracking_audit.m",
+    "sha256": "98d36130cd5c71cb87a2b426f01bf0ebe4b776cd8c9bf3b96da43d99a20f2622"
+  },
+  {
+    "relativePath": "perception\\sta_sensor.m",
+    "sha256": "cd16ff86e6cb4b3f0376fb8ef4f0c6c6994c34b5dd1dc1e1dd24459a4dc50b88"
+  },
+  {
+    "relativePath": "perception\\sta_sensor_config.m",
+    "sha256": "9536bd2b1f1f0371b4ed13d9b04e8a8dd8dd495ee432cb32d551eed82a6a9aa8"
+  },
+  {
+    "relativePath": "perception\\sta_sonar.m",
+    "sha256": "7060e5a6304aa7874e2ac718abe1146be34b77a0c37bc9d450ba6dc75fd0dae8"
+  },
+  {
+    "relativePath": "perception\\sta_sonar_config.m",
+    "sha256": "9ae737c65767b60e5be7c1207b91407fc689297168761092064558a51e77ace0"
+  },
+  {
+    "relativePath": "perception\\sta_static_audit.m",
+    "sha256": "43135f6d24a86b7e139302bf3faad762d4e655b3f7894668dd79d319867f5f62"
+  },
+  {
+    "relativePath": "perception\\archive\\sta_map_query_before_newest_first.m.bak",
+    "sha256": "981c050c66a9ed9e0d566ed334565de0a654a8d0188f72b4fae34f28a33f2757"
+  },
+  {
+    "relativePath": "perception\\archive\\sta_sonar_config_before_750k.m.bak",
+    "sha256": "a7524bcc7fdcf047b4f5775c151bac97072cd80df9592516898e8083cc32092f"
+  },
+  {
+    "relativePath": "planning\\README.md",
+    "sha256": "3ae95bc17b0fc8c99c65eeaa803dfb84966473cf71cd0703b458b912133e4658"
+  },
+  {
+    "relativePath": "planning\\sta_all_contracts.m",
+    "sha256": "51c95f716f73c21b3ee84bdd65be7ef6b3575fe2fd195c2bdbca39d1fafc39f5"
+  },
+  {
+    "relativePath": "planning\\sta_case_config.m",
+    "sha256": "8b0714665f41e768963b4cecc054b2921e62cfb6b8932294b4447c7e98b2a5c9"
+  },
+  {
+    "relativePath": "planning\\sta_fine_planner_config.m",
+    "sha256": "9639a49024173f1735d13d241dbd73faa2da0b39e3563b5c7e684e098e1c7b4c"
+  },
+  {
+    "relativePath": "planning\\sta_helical_contract.m",
+    "sha256": "05fa5a406d17d0416c6d259def2eac02ff0e9716a1f32ffaae70b99051295f0f"
+  },
+  {
+    "relativePath": "planning\\sta_lazy_contract.m",
+    "sha256": "5cc908c0856dff72a2ccab69cce814771c8d533c63a70c9fccffc540858b1705"
+  },
+  {
+    "relativePath": "planning\\sta_local_plan.m",
+    "sha256": "29c74a9db50319f244a0fe60ab3ef6a40f68d7b89cd629fc409feafc9e467f61"
+  },
+  {
+    "relativePath": "planning\\sta_local_plan_lazy.m",
+    "sha256": "6eda00ee89456f65a0e07d52a1225ffbcfa53900b0958594c62407ab6b6f738a"
+  },
+  {
+    "relativePath": "planning\\sta_planner_config.m",
+    "sha256": "690589b156c8962cb2b189a88f55df7275d1512f521823974c8ac0067e4e2bca"
+  },
+  {
+    "relativePath": "planning\\sta_planning_contract.m",
+    "sha256": "414af0e8636b6c4b3569307a4b0943610e06b7ffb626b8f21876daf211535ebc"
+  },
+  {
+    "relativePath": "planning\\sta_probe_consistent.m",
+    "sha256": "22887f8cd6f8468912a43d1ae3a2065470fe44e618df244be1a74928454efa72"
+  },
+  {
+    "relativePath": "planning\\sta_probe_contract.m",
+    "sha256": "f6861a72c18bc730dc800bf23c1549d32a2f6d4d87012dd2c12fa49230a92e85"
+  },
+  {
+    "relativePath": "planning\\sta_project_master.m",
+    "sha256": "0332cab1cdc90937180296e927d62a35db3bb2098c6317f1ea5b2d89dbe922c4"
+  },
+  {
+    "relativePath": "planning\\sta_projection_contract.m",
+    "sha256": "2c8a75b4c7537b3f6d46cf36f006367c2ce3d886a7b6a0a1f13b2abf894fc0b9"
+  },
+  {
+    "relativePath": "planning\\sta_replan_anchor.m",
+    "sha256": "9ae5a9907e615620648fca58deebb83526b7a4c8bd98dd8ad18cd4b87cab8cf9"
+  },
+  {
+    "relativePath": "planning\\sta_replan_anchor_contract.m",
+    "sha256": "2a9c6676bfc91ab1e187625f4ccbf870e662aed59d05770e8f03486642643452"
+  },
+  {
+    "relativePath": "planning\\sta_route_check.m",
+    "sha256": "07e6fcc0575c70c9635813b094bee80d2cfdce0975855388268fad3be2d52574"
+  },
+  {
+    "relativePath": "planning\\sta_segments_sample.m",
+    "sha256": "15c2cf1817132b06482b9def57deb418c153d220ba572e0ce83baf299927bc06"
+  },
+  {
+    "relativePath": "planning\\sta_time_budget.m",
+    "sha256": "71ac634c47dd4da6d03b6d7ead122b8a0fe5babfa3e9755cd641f37dca3c60df"
+  },
+  {
+    "relativePath": "planning\\sta_time_budget_contract.m",
+    "sha256": "9b1d46b3e40c12eec27ece0e8da9e432dbf90fe6a34daf74da1e379e316b45d0"
+  },
+  {
+    "relativePath": "planning\\sta_validation_world.m",
+    "sha256": "91b885432a973892fe97edf7010f5a40733b5ae71d16d9c86de466e67def9948"
+  },
+  {
+    "relativePath": "planning\\prototypes\\STA_LOCAL_PLAN_PATCH.md",
+    "sha256": "a19db47f2e38bedf2ef75aff1e9cd171069f6a611c40a272ca73c6bc1a492a2c"
+  },
+  {
+    "relativePath": "planning\\prototypes\\sta_altitude_inheritance.m",
+    "sha256": "ce84c1d8634e0d6dba2f7fda51826cf52e47a66492fa9d74e7c5da4cf9a75861"
+  },
+  {
+    "relativePath": "planning\\prototypes\\sta_height_contract.m",
+    "sha256": "8f5faabdeec9082223f5c9558f61e8378a99c4879fcca7212324465992f4950d"
+  },
+  {
+    "relativePath": "planning\\prototypes\\sta_step_height.m",
+    "sha256": "983e7778ed68eb7a917b83f6d295118c03bc0988680d4ef361ed44502cfa2bdb"
+  }
+]

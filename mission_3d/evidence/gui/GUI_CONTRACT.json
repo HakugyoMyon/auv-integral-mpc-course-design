@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "checks": 22,
+  "scope": "Four preset world/driver/flags/deadline contracts, static definition JSON roundtrips, legacy task import, truth-map rejection, invalid seed and launch-depth rejection; bounded, deterministic observed-only telemetry. Does not establish full missions, GUI widgets or arbitrary-case success."
+}

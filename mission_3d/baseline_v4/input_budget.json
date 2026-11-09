@@ -1,0 +1,96 @@
+{
+  "assembly": "local-origin/AUV.00_整艇总装_V2_分色重建修复.SLDASM",
+  "fluid_density_kg_m3": 1025,
+  "g_m_s2": 9.80665,
+  "body_origin_SW_m": [
+    0,
+    0.35,
+    0
+  ],
+  "sealed_main_cavity_m3": 0.020866458405143402,
+  "untrimmed": {
+    "mass_kg": 35.726803322348154,
+    "cg_SW_m": [
+      1.1942524847358175e-06,
+      0.53894151999939,
+      -0.0027622205571030995
+    ],
+    "cb_SW_m": [
+      5.977254671827401e-07,
+      0.4376068505614701,
+      0.0002089829918884693
+    ],
+    "cg_body_FRD_m": [
+      -0.18894151999939002,
+      -1.1942524847358175e-06,
+      0.0027622205571030995
+    ],
+    "cb_body_FRD_m": [
+      -0.0876068505614701,
+      -5.977254671827401e-07,
+      -0.0002089829918884693
+    ],
+    "displacement_m3": 0.034653510003469924,
+    "inertia_CG_body_kg_m2": [
+      [
+        0.26725706041099456,
+        0.0030800742725484213,
+        -0.010188788739528517
+      ],
+      [
+        0.0030800742725484213,
+        8.754599440190951,
+        -6.236575787788836e-06
+      ],
+      [
+        -0.010188788739528517,
+        -6.236575787789703e-06,
+        8.747265320847905
+      ]
+    ],
+    "buoyancy_minus_weight_N": -2.0295408286889534
+  },
+  "trimmed_MIL_candidate": {
+    "fore_ballast_kg": 2.7268620986828145,
+    "aft_foam_volume_m3": 0.0032474794481598896,
+    "foam_assumed_density_kg_m3": 60,
+    "mass_kg": 38.64851418792056,
+    "displacement_m3": 0.03790098945162981,
+    "cg_body_FRD_m": [
+      -0.15802888968364037,
+      -1.1039706062676398e-06,
+      0.006559859992411972
+    ],
+    "cb_body_FRD_m": [
+      -0.1572153250313646,
+      -5.465104145310145e-07,
+      -0.004046822301642091
+    ],
+    "inertia_CG_body_kg_m2": [
+      [
+        0.2760778096091382,
+        0.0030787553288025068,
+        -0.08858281039496364
+      ],
+      [
+        0.0030787553288025068,
+        9.47689841825004,
+        -6.3986089998202965e-06
+      ],
+      [
+        -0.08858281039496364,
+        -6.398608999821164e-06,
+        9.460743549716556
+      ]
+    ],
+    "buoyancy_minus_weight_N": 1.961329999999958,
+    "level_pitch_moment_about_body_origin_Nm": -1.7420109799104465e-14,
+    "cg_below_cb_m": 0.010606682294054063
+  },
+  "limitations": [
+    "Full submergence with flooded outer fairings and nominal sealed main compartment",
+    "Unverified material densities, electronics allowance and manufacturer-package centroid proxy",
+    "Ballast is a point-mass assumption with no fit or fastening check",
+    "Rigid-body inertia only; hydrodynamic added mass remains separate"
+  ]
+}

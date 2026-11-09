@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "accepted_heading_packets": 3273,
+  "rejected_heading_packets": 3,
+  "accepted_packets_with_truth_discrepancy_over_10deg": 0,
+  "maximum_packet_truth_discrepancy_deg": 1.7034303411047547,
+  "final_reconstructed_common_bias_deg": -0.53381602692053853,
+  "navigation_reconstruction_error": 5.4443497156347887E-11,
+  "scope": "Raw-packet chronological ESKF re-evaluation. True heading labels packet error only, never updates filter. No magnetic-disturbance immunity proof."
+}

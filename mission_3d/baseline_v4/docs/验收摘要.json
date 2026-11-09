@@ -1,0 +1,140 @@
+{
+  "passed": true,
+  "runs": [
+    {
+      "type": "transit",
+      "recovery": false,
+      "duration_s": 123.60000000000001,
+      "true_supported_targets": 1,
+      "terminal_horizontal_error_m": 1.1056435910199185,
+      "terminal_depth_error_m": 0.017642072876448367,
+      "maximum_depth_reference_slew_m_s": 0.06000000000000569,
+      "raw_samples": 1237,
+      "raw_sha256": "8cfd4c7a547b2eff836e48c228d5deab0624f7098aba59bc144b961799f52e7b",
+      "audit_files": [
+        "actuator_audit.json",
+        "heading_audit.json",
+        "heading_innovations.json",
+        "control_physics_replay.json",
+        "visit_ledger_audit.json"
+      ],
+      "scope": "Raw finite histories, original-ID count monotonicity, actual endpoint, exports and declared audit checks. Not a universal safety or confidence-calibration proof."
+    },
+    {
+      "type": "return",
+      "recovery": false,
+      "duration_s": 207.6,
+      "true_supported_targets": 1,
+      "terminal_horizontal_error_m": 0.5860046844125258,
+      "terminal_depth_error_m": 0.018188406377250388,
+      "maximum_depth_reference_slew_m_s": 0.06000000000000569,
+      "raw_samples": 2077,
+      "raw_sha256": "68a1d5a25005762cf80ee257fb2465ed9546171625ce752a3c9e3e813deb61da",
+      "audit_files": [
+        "actuator_audit.json",
+        "heading_audit.json",
+        "heading_innovations.json",
+        "control_physics_replay.json",
+        "visit_ledger_audit.json"
+      ],
+      "scope": "Raw finite histories, original-ID count monotonicity, actual endpoint, exports and declared audit checks. Not a universal safety or confidence-calibration proof."
+    },
+    {
+      "type": "visit",
+      "recovery": false,
+      "duration_s": 816.1,
+      "true_supported_targets": 3,
+      "terminal_horizontal_error_m": 0.7341301401249574,
+      "terminal_depth_error_m": 0.02400418307797736,
+      "maximum_depth_reference_slew_m_s": 0.06000000000005684,
+      "raw_samples": 8162,
+      "raw_sha256": "59fd78824f2af5b64c25b5842baafe2b29b2c7aa46c66d67d6fbbda8385045e9",
+      "audit_files": [
+        "actuator_audit.json",
+        "heading_audit.json",
+        "heading_innovations.json",
+        "control_physics_replay.json",
+        "visit_ledger_audit.json"
+      ],
+      "scope": "Raw finite histories, original-ID count monotonicity, actual endpoint, exports and declared audit checks. Not a universal safety or confidence-calibration proof."
+    },
+    {
+      "type": "inspection",
+      "recovery": false,
+      "duration_s": 735.3000000000001,
+      "true_supported_targets": 7,
+      "terminal_horizontal_error_m": 0.5511529384905417,
+      "terminal_depth_error_m": 0.03564597918655821,
+      "maximum_depth_reference_slew_m_s": 0.06000000000002274,
+      "raw_samples": 7354,
+      "raw_sha256": "22abc70dbb6c90673e73a32bffa2e65e42e59547fa587e0146dbdbe5ee6427a2",
+      "audit_files": [
+        "actuator_audit.json",
+        "heading_audit.json",
+        "heading_innovations.json",
+        "control_physics_replay.json",
+        "payload_replay_audit.json"
+      ],
+      "scope": "Raw finite histories, original-ID count monotonicity, actual endpoint, exports and declared audit checks. Not a universal safety or confidence-calibration proof."
+    },
+    {
+      "type": "survey",
+      "recovery": false,
+      "duration_s": 1039.5,
+      "true_supported_targets": 360,
+      "terminal_horizontal_error_m": 0.7714914568307896,
+      "terminal_depth_error_m": 0.008641466024098321,
+      "maximum_depth_reference_slew_m_s": 0.06000000000005684,
+      "raw_samples": 10396,
+      "raw_sha256": "e00c17110c73f75cfa2ddbdb6626e8065772c70d2c0ed4c2a2c4ee9e8f991491",
+      "audit_files": [
+        "actuator_audit.json",
+        "heading_audit.json",
+        "heading_innovations.json",
+        "control_physics_replay.json",
+        "payload_replay_audit.json"
+      ],
+      "scope": "Raw finite histories, original-ID count monotonicity, actual endpoint, exports and declared audit checks. Not a universal safety or confidence-calibration proof."
+    },
+    {
+      "type": "inspection",
+      "recovery": true,
+      "duration_s": 1470.6000000000001,
+      "true_supported_targets": 7,
+      "terminal_horizontal_error_m": 0.668529179845136,
+      "terminal_depth_error_m": 0.014408102226703079,
+      "maximum_depth_reference_slew_m_s": 0.06000000000005684,
+      "raw_samples": 14707,
+      "raw_sha256": "e847df8d622800683b5a7c2c2aabbb7c601023a3a3603ec11f75af2efc8b6dcc",
+      "audit_files": [
+        "actuator_audit.json",
+        "heading_audit.json",
+        "heading_innovations.json",
+        "control_physics_replay.json",
+        "payload_replay_audit.json",
+        "fault_window_audit.json"
+      ],
+      "scope": "Raw finite histories, original-ID count monotonicity, actual endpoint, exports and declared audit checks. Not a universal safety or confidence-calibration proof."
+    }
+  ],
+  "source_count": 98,
+  "ui_config_evidence": "T17_final_v4_ui/ui_and_config_acceptance.json",
+  "boundary_rejections": [
+    {
+      "case": "T20_final_v4_boundary_1",
+      "expected_abort": "time_horizon_reached",
+      "raw_sha256": "68054c5103e15c9ea126a6e7349c7b8f100848b4a99f7d25f5a6e8959d2ebf82"
+    },
+    {
+      "case": "T20_final_v4_boundary_2",
+      "expected_abort": "navigation_quality_invalid",
+      "raw_sha256": "d3bde3cebc32583b542403439d1da73ebb34795ee135d2815e32ab947428cedd"
+    },
+    {
+      "case": "T20_final_v4_boundary_3",
+      "expected_abort": "altimeter_unavailable_during_altitude_work",
+      "raw_sha256": "af9c1b0937ed811c0c6c9fcc33530ef9570506fa63c4a76036e503d56b971fdf"
+    }
+  ],
+  "scope": "Final-v4 complete normal, outage-recovery and boundary rejection evidence plus source/input integrity. Desktop deployment and goal-by-goal review still required separately."
+}

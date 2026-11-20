@@ -4,7 +4,8 @@ type: software
 title: "Underactuated AUV 3D Mission System with Multivariable MPC"
 authors:
   - family-names: "HakugyoMyon"
-version: 2.0.0-dev
+version: 2.0.0
+date-released: 2026-11-19
 repository-code: "https://github.com/HakugyoMyon/auv-integral-mpc-course-design"
 license: MIT
 keywords:

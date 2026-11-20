@@ -5,6 +5,8 @@ MATLAB课程设计：人工配置 → 可行性检查 → 自动规划 → MPC�
 
 ![任务工作台](docs/mission_3d/images/gui.png)
 
+当前最终归档版本：2.0.0。2026-11-19复核源码与桌面提交版一致；未重跑大型实验。
+
 ## 快速开始
 
 使用MATLAB R2024b，安装并授权Control System Toolbox、Optimization Toolbox及Navigation Toolbox。
